@@ -36,9 +36,8 @@ Rick & Morty <span className="text-primary">Wiki</span>
 <Search updatePageNumber={updatePageNumber} setSearch={setSearch}/>
 <div className="container">
 <div className="row">
-<div className="col-3">
+
 <Filters />
-</div>
 <div className="col-8">
 <div className="row">
 <Cards results={results}/>
